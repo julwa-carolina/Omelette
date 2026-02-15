@@ -174,7 +174,7 @@ p, li, table {
 /* media query */
 @media screen and (max-width: 1024px){
     main {
-        grid-template-columns: auto 90vw auto;
+        grid-template-columns: 1fr 100vw 1fr;;
     }
 
     h1 {
@@ -186,4 +186,5 @@ p, li, table {
         margin: 0px 20px 0px 20px;     
     }
 }
+
 
